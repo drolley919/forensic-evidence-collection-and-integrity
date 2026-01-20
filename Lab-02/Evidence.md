@@ -4,7 +4,7 @@ A forensic image of a folder was created and verified using FTK Imager to confir
 
 Both MD5 and SHA-1 hash values matched the reported values, confirming that the image was not altered during acquisition or validation.
 
-![FTK Imager folder image hash verification results]
+![FTK Imager folder image hash verification results](https://github.com/drolley919/forensic-evidence-collection-and-integrity/blob/main/Lab-02/Assets/screenshots/lab2-folder-image-hash-verification-ftk.png)
 
 ## NTFS Drive Image Integrity Verification
 
@@ -12,7 +12,7 @@ A full NTFS drive image was acquired and verified using FTK Imager to ensure for
 
 Both MD5 and SHA-1 hashes matched successfully, and no bad sectors were identified during imaging. This confirms that the drive image was acquired without error and remained unaltered during verification.
 
-![FTK Imager NTFS drive image hash verification results]
+![FTK Imager NTFS drive image hash verification results](https://github.com/drolley919/forensic-evidence-collection-and-integrity/blob/main/Lab-02/Assets/screenshots/lab2-ntfs-drive-image-hash-verification-ftk.png)
 
 ## FAT32 Drive Image Integrity Verification
 
@@ -20,7 +20,7 @@ A FAT32-formatted drive image was also acquired and verified using FTK Imager as
 
 Both MD5 and SHA-1 hash values matched successfully, and no bad sectors were identified during the verification process. This confirms that the FAT32 drive image was acquired accurately and preserved without alteration.
 
-![FTK Imager FAT32 drive image hash verification results]
+![FTK Imager FAT32 drive image hash verification results](https://github.com/drolley919/forensic-evidence-collection-and-integrity/blob/main/Lab-02/Assets/screenshots/lab2-fat32-drive-image-hash-verification-ftk.png)
 
 ## Independent Hash Verification of AD1 Evidence File
 
@@ -28,7 +28,7 @@ To further validate forensic integrity, the acquired AD1 evidence file was indep
 
 Both MD5 and SHA-1 hash values were successfully calculated for the `Document Folder.ad1` evidence file, supporting the integrity and authenticity of the acquired data.
 
-![HashCalc verification of AD1 document folder image]
+![HashCalc verification of AD1 document folder image](https://github.com/drolley919/forensic-evidence-collection-and-integrity/blob/main/Lab-02/Assets/screenshots/lab2-hashcalc-ad1-document-folder-hash-verification.png)
 
 ## Independent Hash Verification of NTFS Disk Image
 
@@ -36,7 +36,7 @@ To ensure forensic integrity beyond the acquisition tool, the NTFS disk image (`
 
 Both MD5 and SHA-1 hashes matched the values reported during image creation, confirming that the disk image remained unchanged and forensically sound.
 
-![HashCalc verification of NTFS disk image]
+![HashCalc verification of NTFS disk image](https://github.com/drolley919/forensic-evidence-collection-and-integrity/blob/main/Lab-02/Assets/screenshots/lab2-hashcalc-ntfs-drive-001-hash-verification.png)
 
 ## Independent Hash Verification of FAT32 Disk Image
 
@@ -44,7 +44,7 @@ To further validate forensic integrity, the FAT32 disk image (`FAT32 Drive.001`)
 
 Both MD5 and SHA-1 hashes matched the values recorded during acquisition, confirming that the FAT32 disk image remained unchanged and forensically sound throughout the examination process.
 
-![HashCalc verification of FAT32 disk image]
+![HashCalc verification of FAT32 disk image](https://github.com/drolley919/forensic-evidence-collection-and-integrity/blob/main/Lab-02/Assets/screenshots/lab2-hashcalc-fat32-drive-001-hash-verification.png)
 
 ## Artifact-Level Hash Verification of Generated Hash List
 
@@ -52,7 +52,7 @@ To ensure artifact-level integrity, the hash list file generated during the exam
 
 MD5 and SHA-1 hash values were successfully generated and recorded, providing assurance that the hash list remained unchanged and reliable for verification and reporting purposes.
 
-![HashCalc verification of documents image hash list]
+![HashCalc verification of documents image hash list](https://github.com/drolley919/forensic-evidence-collection-and-integrity/blob/main/Lab-02/Assets/screenshots/lab2-hashcalc-documents-image-hash-list-csv-verification.png)
 
 ## Review of Generated Hash List for Document Image
 
@@ -60,4 +60,4 @@ The generated hash list file (`Documents Image Hash List.csv`) was opened and re
 
 This review step ensured that all examined files were properly cataloged with their associated cryptographic hashes, supporting traceability, integrity verification, and reporting accuracy throughout the forensic examination.
 
-![Documents image hash list reviewed in OpenOffice Calc]
+![Documents image hash list reviewed in OpenOffice Calc](https://github.com/drolley919/forensic-evidence-collection-and-integrity/blob/main/Lab-02/Assets/screenshots/lab2-documents-image-hash-list-openoffice-review.png)
