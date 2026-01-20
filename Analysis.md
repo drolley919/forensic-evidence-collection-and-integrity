@@ -4,7 +4,7 @@ The USB device was examined using FTK Imager to identify the underlying file sys
 
 This step confirmed the file system type and ensured the media could be safely analyzed without modification.
 
-![FTK Imager FAT32 file system identification](Assets/screenshots/lab1-fat32-file-system-identification-ftk.png)
+![FTK Imager FAT32 file system identification] [(Assets/screenshots/lab1-fat32-file-system-identification-ftk.png)](https://github.com/drolley919/forensic-evidence-collection-and-integrity/blob/main/Assests/screenshots/lab1-fat32-file-system-identification-ftk.png)
 
 Following identification of the FAT32 volume, the second attached storage device was examined to determine its file system structure. FTK Imager identified the volume as NTFS, and the boot sector was reviewed in hex view to validate the file system signature and metadata.
 
